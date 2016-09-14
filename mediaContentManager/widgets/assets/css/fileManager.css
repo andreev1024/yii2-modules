@@ -1,0 +1,26 @@
+
+
+.right1padding {
+    padding-right: 1em;
+}
+
+.fm-file-name {
+    #word-wrap: break-word;
+}
+
+.fm-files-container .popover {
+    max-width: none;
+}
+
+.fm-files-container.fm-icons i {
+    font-size: 4em;
+}
+
+.fm-icons .fm-file-container {
+    height: 10em;
+}
+
+.fm-icons .fm-file-container {
+    float: left;
+    text-align: center;
+}

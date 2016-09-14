@@ -1,0 +1,30 @@
+{
+    "name": "andreev1024/yii2-modules",
+    "description": "Yii2 modules widgets by Andreev",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "yiisoft/yii2-imagine": "2.0.*",
+        "2amigos/yii2-chartjs-widget": "2.0.*@dev",
+        "miloschuman/yii2-highcharts-widget": "dev-master",
+        "kartik-v/yii2-icons": "*",
+        "kartik-v/yii2-mpdf": "dev-master",
+        "reseed/re-widgets": "@dev",
+        "andreev1024/yii2-components": "dev-master as 1.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "andreev1024\\barcode\\": "barcode/",
+            "andreev1024\\csvImport\\": "csvImport/",
+            "andreev1024\\currency\\": "currency/",
+            "andreev1024\\mediaContentManager\\": "mediaContentManager/",
+            "andreev1024\\piwik\\": "piwik/",
+            "andreev1024\\rbac\\": "rbac/",
+            "andreev1024\\recron\\": "recron/",
+            "andreev1024\\templater\\": "templater/",
+            "andreev1024\\sqs\\": "sqs/"
+        }
+    }
+}
